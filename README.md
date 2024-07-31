@@ -369,9 +369,8 @@ Upload each year of crime incidents data as a vector dataset
         in QGIS \> Field Calculator\> User expressions \>
         `CalculateShootingsHalfMileREAL`*
 
-> \[!NOTE\] `0.005` was determined through trial and error with manual
-> spot checks to confirm that the found crime incidents are within 0.5
-> miles of the schools.
+> [!NOTE] 
+> `0.005` was determined through trial and error with manual spot checks to confirm that the found crime incidents are within 0.5 miles of the schools.
 
 ``` python
 array_length(
@@ -434,8 +433,8 @@ analysis_while_open_median <- analysis_while_open_schools %>%
 
 ### Context of gun violence in Philadelphia
 
-> \[!NOTE\] The highlighted grey bars on most graphics highlight the
-> closure of 30 schools from 2012-2014.
+> [!NOTE] 
+> The highlighted grey bars on most graphics highlight the closure of 30 schools from 2012-2014.
 
 Before diving into school-specific data, is important for us to
 understand crime and gun violence citywide. First, we need to understand
@@ -551,7 +550,7 @@ close_open_median <- analysis_while_open_schools %>%
 
 | Status | Median gun violence |
 |--------|---------------------|
-| :—     | —:                  |
+| :---   |                 ---:|
 | Closed | 25                  |
 | Open   | 20                  |
 
@@ -723,7 +722,7 @@ close_open_median_disinvestment <- disinvested_schools %>%
 
 | Status | Median gun violence |
 |--------|---------------------|
-| :—     | —:                  |
+| :---   |                 ---:|
 | Closed | 30                  |
 | Open   | 20                  |
 
@@ -817,7 +816,7 @@ analysis_while_open_schools %>%
 
 | Status | Incidents before | Incidents after |
 |--------|------------------|-----------------|
-| :—     | —:               | —:              |
+| :---   |              ---:|             ---:|
 | Closed | 31               | 23              |
 | Open   | 25               | 18              |
 
@@ -847,7 +846,7 @@ disinvested_schools %>%
 
 | Status | Incidents before | Incidents after |
 |--------|------------------|-----------------|
-| :—     | —:               | —:              |
+| :---   |              ---:|             ---:|
 | Closed | 35.5             | 25.5            |
 | Open   | 25               | 18              |
 
@@ -1069,7 +1068,7 @@ sum_change_status <- sum_change_status %>%
 
 | Status | Direction | Number | Percent |
 |--------|-----------|--------|---------|
-| :—     | :—        | —:     | —:      |
+| :---   | :---      | ---:   |     ---:|
 | Closed | decrease  | 7      | 23.33%  |
 | Closed | increase  | 23     | 76.67%  |
 | Open   | decrease  | 28     | 35.44%  |
