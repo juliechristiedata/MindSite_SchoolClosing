@@ -550,7 +550,6 @@ close_open_median <- analysis_while_open_schools %>%
 
 | Status | Median gun violence |
 |--------|---------------------|
-| :---   |                 ---:|
 | Closed | 25                  |
 | Open   | 20                  |
 
@@ -722,7 +721,6 @@ close_open_median_disinvestment <- disinvested_schools %>%
 
 | Status | Median gun violence |
 |--------|---------------------|
-| :---   |                 ---:|
 | Closed | 30                  |
 | Open   | 20                  |
 
@@ -816,7 +814,6 @@ analysis_while_open_schools %>%
 
 | Status | Incidents before | Incidents after |
 |--------|------------------|-----------------|
-| :---   |              ---:|             ---:|
 | Closed | 31               | 23              |
 | Open   | 25               | 18              |
 
@@ -846,7 +843,6 @@ disinvested_schools %>%
 
 | Status | Incidents before | Incidents after |
 |--------|------------------|-----------------|
-| :---   |              ---:|             ---:|
 | Closed | 35.5             | 25.5            |
 | Open   | 25               | 18              |
 
@@ -1068,7 +1064,6 @@ sum_change_status <- sum_change_status %>%
 
 | Status | Direction | Number | Percent |
 |--------|-----------|--------|---------|
-| :---   | :---      | ---:   |     ---:|
 | Closed | decrease  | 7      | 23.33%  |
 | Closed | increase  | 23     | 76.67%  |
 | Open   | decrease  | 28     | 35.44%  |
