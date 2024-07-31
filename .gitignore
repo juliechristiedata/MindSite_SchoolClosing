@@ -1,0 +1,21 @@
+# R Stuff
+.Rproj.user
+.RData
+.Rhistory
+.Ruserdata
+workspace.RData
+
+# Data files 
+nearest_closed_schools.csv
+nearest_open_schools.csv
+GunSchool_MindSight.Rproj
+nearest_school_results.gpkg
+nearest_school_results.gpkg-shm
+nearest_school_results.gpkg-wal
+data/all_PHL_crime.csv
+
+#Folders
+Methodology_GunSchool_cache/
+
+# Documents
+RTK_PPDShootingData_Christie.docx
