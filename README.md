@@ -817,8 +817,8 @@ analysis_while_open_schools %>%
 | Closed | 31               | 23              |
 | Open   | 25               | 18              |
 
-Below is **Comparing 2.7**, which excludes the three
-university-affiliated schools.
+Below is **Comparing 2.7**, which excludes the four
+high-investment-area schools.
 
 ``` r
 # Median number of incidents across all years
