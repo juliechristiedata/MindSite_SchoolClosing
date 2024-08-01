@@ -644,8 +644,8 @@ exclusion to control for their existence in an area that has most of its
 daily population as a result of business operations.
 
 Below you can see in **Context 2.1** the annual amounts of gun violence
-for each school. In blue are highlighted the three university-affiliated
-schools. These schools neither have the lowest amounts of gun violence,
+for each school. In blue are highlighted the four high-investment schools. 
+These schools neither have the lowest amounts of gun violence,
 nor are they the only schools with those amounts of gun violence. If
 being university-affiliated was not a confounding factor, running the
 same analysis while excluding those schools should not impact the
