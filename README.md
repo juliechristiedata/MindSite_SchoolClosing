@@ -436,7 +436,7 @@ analysis_while_open_median <- analysis_while_open_schools %>%
 > [!NOTE] 
 > The highlighted grey bars on most graphics highlight the closure of 30 schools from 2012-2014.
 
-Before diving into school-specific data, is important for us to
+Before diving into school-specific data, it is important for us to
 understand crime and gun violence citywide. First, we need to understand
 how much of overall crime gun violence accounts for. As seen in
 **Context 1.1**, gun violence has accounted for between 3 and 5 percent
@@ -610,7 +610,7 @@ that are very clearly *not* experiencing disinvestment:
 3.  Alexander Wilson Elementary at 4514 Woodland Ave, Philadelphia,
     PA 19143. This school was located within the University of the
     Sciences campus. [St. Joe’s University merged with USciences in 2022
-    and becan consolidating real-estate in that
+    and began consolidating real-estate in that
     year.](https://www.nbcphiladelphia.com/news/business/st-joes-to-explore-sale-of-real-estate-at-new-university-city-campus/3366373/)
 4.  Philadelphia High School for Business and Technology at 540 N. 13th
     St., Philadelphia, PA 19123. This high school is within a
