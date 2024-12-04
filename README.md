@@ -436,7 +436,7 @@ analysis_while_open_median <- analysis_while_open_schools %>%
 > [!NOTE] 
 > The highlighted grey bars on most graphics highlight the closure of 30 schools from 2012-2014.
 
-Before diving into school-specific data, is important for us to
+Before diving into school-specific data, it is important for us to
 understand crime and gun violence citywide. First, we need to understand
 how much of overall crime gun violence accounts for. As seen in
 **Context 1.1**, gun violence has accounted for between 3 and 5 percent
@@ -549,7 +549,7 @@ close_open_median <- analysis_while_open_schools %>%
 **Table:** Comparing 2.1
 
 | Status | Median gun violence |
-|--------|---------------------|
+|:---|---:|
 | Closed | 25                  |
 | Open   | 20                  |
 
@@ -610,7 +610,7 @@ that are very clearly *not* experiencing disinvestment:
 3.  Alexander Wilson Elementary at 4514 Woodland Ave, Philadelphia,
     PA 19143. This school was located within the University of the
     Sciences campus. [St. Joe’s University merged with USciences in 2022
-    and becan consolidating real-estate in that
+    and began consolidating real-estate in that
     year.](https://www.nbcphiladelphia.com/news/business/st-joes-to-explore-sale-of-real-estate-at-new-university-city-campus/3366373/)
 4.  Philadelphia High School for Business and Technology at 540 N. 13th
     St., Philadelphia, PA 19123. This high school is within a
@@ -644,8 +644,8 @@ exclusion to control for their existence in an area that has most of its
 daily population as a result of business operations.
 
 Below you can see in **Context 2.1** the annual amounts of gun violence
-for each school. In blue are highlighted the three university-affiliated
-schools. These schools neither have the lowest amounts of gun violence,
+for each school. In blue are highlighted the four high-investment schools. 
+These schools neither have the lowest amounts of gun violence,
 nor are they the only schools with those amounts of gun violence. If
 being university-affiliated was not a confounding factor, running the
 same analysis while excluding those schools should not impact the
@@ -720,7 +720,7 @@ close_open_median_disinvestment <- disinvested_schools %>%
 **Table:** Comparing 2.3
 
 | Status | Median gun violence |
-|--------|---------------------|
+|:---| ---:|
 | Closed | 30                  |
 | Open   | 20                  |
 
@@ -813,12 +813,12 @@ analysis_while_open_schools %>%
 **Comparing 2.6**
 
 | Status | Incidents before | Incidents after |
-|--------|------------------|-----------------|
+|:--- | ---:| ---:|
 | Closed | 31               | 23              |
 | Open   | 25               | 18              |
 
-Below is **Comparing 2.7**, which excludes the three
-university-affiliated schools.
+Below is **Comparing 2.7**, which excludes the four
+high-investment-area schools.
 
 ``` r
 # Median number of incidents across all years
@@ -842,7 +842,7 @@ disinvested_schools %>%
 **Comparing 2.7**
 
 | Status | Incidents before | Incidents after |
-|--------|------------------|-----------------|
+|:--- | ---:| ---:|
 | Closed | 35.5             | 25.5            |
 | Open   | 25               | 18              |
 
@@ -1063,7 +1063,7 @@ sum_change_status <- sum_change_status %>%
 **Comparing 4.1**
 
 | Status | Direction | Number | Percent |
-|--------|-----------|--------|---------|
+|:--- |:--- | ---:| ---:|
 | Closed | decrease  | 7      | 23.33%  |
 | Closed | increase  | 23     | 76.67%  |
 | Open   | decrease  | 28     | 35.44%  |
