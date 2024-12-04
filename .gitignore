@@ -4,6 +4,7 @@
 .Rhistory
 .Ruserdata
 workspace.RData
+old_methodology.Rmd
 
 # Data files 
 nearest_closed_schools.csv
